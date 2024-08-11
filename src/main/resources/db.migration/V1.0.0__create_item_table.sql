@@ -1,0 +1,5 @@
+CREATE TABLE item (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    code INT NOT NULL
+);

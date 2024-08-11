@@ -6,13 +6,13 @@ import java.util.List;
 
 public interface itemservice {
 
-    Item addItem(Item item);
+    Item addItem(Item newitem);
 
     Item getItemById(int id);
 
     List<Item> getAllItems();
 
-   void  deleteOtemgetId(int id);
+    void deleteItemgetId(int id);
 
 
 }
